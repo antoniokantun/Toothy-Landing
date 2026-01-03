@@ -101,3 +101,36 @@ export const DOCTORS = [
     image: "/images/team/mariana.png",
   },
 ];
+
+export const REVIEWS = [
+  {
+    id: 1,
+    text: "¡Simplemente wow! Llegué con mucho miedo y salí feliz. Me hicieron un diseño de sonrisa y quedaron súper naturales. El Dr. Andrés es un experto y todo el equipo es súper amable. ¡Gracias Toothy!",
+    author: "Valeria Sánchez",
+  },
+  {
+    id: 2,
+    text: "La atención a mis hijos fue increíble. La Dra. Mariana tiene una paciencia infinita. Es la primera vez que mis niños no lloran al ir al dentista. Instalaciones de 10.",
+    author: "Ricardo Gómez",
+  },
+  {
+    id: 3,
+    text: "Me realicé una endodoncia y no sentí absolutamente nada de dolor. La tecnología que usan se nota que es muy avanzada. Definitivamente mi clínica de confianza en Cancún.",
+    author: "Sofía Martínez",
+  },
+  {
+    id: 4,
+    text: "Después de años de evitar al dentista, Toothy me devolvió la confianza. Me hicieron una limpieza profunda y me explicaron todo el proceso. Ahora voy regularmente y mi salud bucal ha mejorado muchísimo.",
+    author: "Carlos Rivera",
+  },
+  {
+    id: 5,
+    text: "El equipo de Toothy es simplemente el mejor. Me colocaron implantes dentales y el resultado fue espectacular. La Dra. Regina es una verdadera artista. ¡Recomiendo Toothy a todos mis amigos!",
+    author: "Ana López",
+  },
+  {
+    id: 6,
+    text: "Excelente servicio y atención personalizada. Me hicieron un blanqueamiento dental y los resultados fueron inmediatos. Mi sonrisa nunca había lucido tan bien. ¡Gracias Toothy!",
+    author: "Laura Fernández",
+  }
+];
