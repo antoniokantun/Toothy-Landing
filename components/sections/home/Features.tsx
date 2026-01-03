@@ -1,31 +1,10 @@
 import Image from "next/image";
+import { FEATURES } from "@/lib/constants";
 
-const FEATURES = [
-  {
-    title: "ODONTOLOGÍA DE ALTA PRECISIÓN.",
-    description: "Confía tu sonrisa a expertos que utilizan herramientas de diagnóstico digital para brindarte soluciones exactas, minimizando riesgos y asegurando el éxito de tu tratamiento.",
-    image: "/images/features/precision-dental.jpg",
-  },
-  {
-    title: "SOLUCIONES DENTALES PERSONALIZADAS.",
-    description: "Analizamos tu caso a fondo para ofrecerte un plan de recuperación dental único que se ajuste a tu presupuesto y objetivos de salud.",
-    image: "/images/features/soluciones-dentales.jpg",
-  },
-  {
-    title: "TECNOLOGÍA AVANZADA Y MATERIALES PREMIUM.",
-    description: "Invertimos en equipos de última generación y utilizamos exclusivamente materiales de alta gama y certificación internacional para asegurar que cada restauración sea estética y duradera.",
-    image: "/images/features/tecnologia-dental.jpg",
-  },
-  {
-    title: "EQUIPO MULTIDISCIPLINARIO INTEGRADO.",
-    description: "En Toothy no dependes de un solo médico. Un equipo de especialistas (ortodoncistas, endodoncistas y cirujanos) colabora en tu caso para brindarte una solución integral en un solo lugar.",
-    image: "/images/features/equipo-dental.jpg",
-  },
-];
 
-export default function WhyUs() {
+export default function Features() {
   return (
-    <section className="w-full py-20 bg-toothy-300">
+    <section className="w-full py-20 bg-toothy-300 text-text-main">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-4xl font-bold">
@@ -60,7 +39,6 @@ export default function WhyUs() {
               </div>
             </div>
           ))}
-
         </div>
       </div>
     </section>

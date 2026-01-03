@@ -13,7 +13,6 @@ const NAV_LINKS = [
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
-
     return (
         <header className='w-full py-6 fixed top-0 z-50 bg-toothy-100'>
             <nav className='w-full flex items-center justify-between relative'>
@@ -26,7 +25,7 @@ export default function Navbar() {
                         <li key={link.name}>
                             <Link
                                 href={link.href}
-                                className="font-medium hover:text-toothy-500 transition-colors duration-200"
+                                className="font-medium text-text-main hover:text-toothy-500 transition-colors duration-200"
                                 onClick={() => setIsOpen(false)}
                             >
                                 {link.name}
